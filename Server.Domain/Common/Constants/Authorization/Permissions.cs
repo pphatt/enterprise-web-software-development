@@ -4,6 +4,12 @@ namespace Server.Domain.Common.Constants.Authorization;
 
 public static class Permissions
 {
+    public static class Dashboards
+    {
+        [Description("View Dashboard")]
+        public const string View = "Permissions.View.Board";
+    }
+
     public static class Roles
     {
         [Description("Create New Role")]
